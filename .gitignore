@@ -1,7 +1,5 @@
-docs/site/
-
-# OSX Junk
-.DS_Store
+# # OSX Junk
+# .DS_Store
 
 # test cache
 .cache/*

@@ -2,6 +2,7 @@ import os
 import shutil
 
 medium_project_files_to_remove = ["docs", ".env", "Makefile"]
+
 small_project_files_to_remove = medium_project_files_to_remove + [
     os.path.join("data", "raw"),
     os.path.join("data", "interim"),
