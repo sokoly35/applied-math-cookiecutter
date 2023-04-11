@@ -16,6 +16,8 @@ small_project_files_to_remove = medium_project_files_to_remove + [
 
 project_size = "{{ cookiecutter.project_size }}"
 
+paths = []
+
 if project_size == "Medium":
     paths = medium_project_files_to_remove
 elif project_size == "Small":
