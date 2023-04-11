@@ -21,7 +21,8 @@
 ├───models                 <- Folder do zapisywania modeli
 │
 ├───src                    <- Folder na cały kod wykorzystywany w projekcie
-│   │   consts.py          <- Plik przechowujący zmienne globalne/ustawienia w projekcie, np. ścieżki do plików, pisane capslockiem
+│   │   consts.py          <- Plik przechowujący zmienne globalne/ustawienia w projekcie, 
+│   │                         np. ścieżki do plików, pisane capslockiem
 │   │   __init__.py        <- Sprawia, że src staje się modułem{% elif cookiecutter.project_size == "Medium" %}ROOT:.
 │   LICENSE
 │   .gitignore             <- Plik definiujący, które pliki nie mogą być wysyłane do repozytorium
@@ -45,7 +46,8 @@
 │   ├───draft              <- Folder, z Jupyter Notebook'ami będącymi brudnopisami 
 │
 ├───src                    <- Folder na cały kod wykorzystywany w projekcie
-│   │   consts.py          <- Plik przechowujący zmienne globalne/ustawienia w projekcie, np. ścieżki do plików, pisane capslockiem
+│   │   consts.py          <- Plik przechowujący zmienne globalne/ustawienia w projekcie, 
+│   │                         np. ścieżki do plików, pisane capslockiem
 │   │   __init__.py        <- Sprawia, że src staje się modułem
 │   │
 │   ├───data               <- Skrypty do generowania/procesowania danych
@@ -81,7 +83,8 @@
 │   ├───draft              <- Folder, z Jupyter Notebook'ami będącymi brudnopisami 
 │
 ├───src                    <- Folder na cały kod wykorzystywany w projekcie
-│   │   consts.py          <- Plik przechowujący zmienne globalne/ustawienia w projekcie, np. ścieżki do plików, pisane capslockiem
+│   │   consts.py          <- Plik przechowujący zmienne globalne/ustawienia w projekcie, 
+│   │                         np. ścieżki do plików, pisane capslockiem
 │   │   __init__.py        <- Sprawia, że src staje się modułem
 │   │
 │   ├───data               <- Skrypty do generowania/procesowania danych
