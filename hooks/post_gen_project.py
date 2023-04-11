@@ -1,4 +1,5 @@
 import os
+import shutil
 
 medium_project_files_to_remove = ["docs", ".env", "Makefile"]
 small_project_files_to_remove = medium_project_files_to_remove + [
@@ -23,6 +24,6 @@ elif project_size == "Small":
 for path in paths:
     if path and os.path.exists(path):
         if os.path.isdir(path):
-            os.rmdir(path)
+            shutil.rmtree(path, ignore_errors=True)
         else:
-            os.unlink(path)
+            os.remove(path)
