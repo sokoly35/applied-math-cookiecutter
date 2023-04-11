@@ -1,11 +1,11 @@
-{{cookiecutter.project_name}}
+# {{cookiecutter.project_name}}
 ---
 
 {{cookiecutter.description}}
 
-# Project Organization
+## Project Organization
 ---
-<br/>
+
 {%- if cookiecutter.project_size == "Small" -%}
 
 ```
@@ -24,3 +24,5 @@ Possible medium project content here
 Possible large project content here
 ```
 {% endif %}
+
+---
