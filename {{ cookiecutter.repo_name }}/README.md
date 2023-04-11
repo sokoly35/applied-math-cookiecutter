@@ -5,7 +5,7 @@
 
 # Project Organization
 ---
-
+<br/>
 {%- if cookiecutter.project_size == "Small" -%}
 # Possible small project content here
 
